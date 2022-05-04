@@ -283,14 +283,7 @@ h5 + p > a{
   
 /* Empty Cart */
 
-#showProduct {
-    width: 100%;
-    height: 100px;
-    border: 1px solid #DADCDF;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px;
-}
+
 
 /* #showProduct > h2 {
     width: auto;
@@ -469,23 +462,248 @@ h5 + p > a{
     height: auto;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #couponDetails > div {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
 }
 
 #couponDetails > div:nth-child(1) {
-    padding: 10px 0px;
+    padding: 10px 35px;
     border-right: 1px solid #DADCDF;
+}
+
+#couponDetails > div:nth-child(2) {
+    padding: 0px 10px;
+    text-align: center;
+    width: 40%;
+}
+
+#couponDetails > div:nth-child(3) {
+    width: 40%;
+    display: flex;
+}
+#email {
+    padding: 10px;
+    width: 60%;
+}
+
+#email + button {
+    Padding: 10px;
+    background-color: #0272A2;
+    width: 30%;
+    /* margin-left: -5px; */
+    color: white;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.off {
+    font-size: 27px;
+    color: red;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.terms {
+    font-size: 10px;
+}
+
+/* coupon section  */
+
+/* Radio Buttons  */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: black;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* Radio Buttons */
+
+
+/* Cart Product  */
+
+/* append Div  */
+
+#showProduct {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #DADCDF; */
+    text-align: center;
+    box-sizing: border-box;
+    /* padding: 20px; */
+}
+
+/* append Div  */
+
+#mainProductBox {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DADCDF;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#leftProductBox {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+#productImage {
+    height: 70%;
+}
+
+#productDetails {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+#productDetails > p:nth-child(1) {
+    font-size: 14px;
+    margin: 0;
+}
+
+#productDetails > p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#productDetails > select {
+    padding: 8px 17px;
+    border-color: #DADCDF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#productDetails > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightDeliveryBox {
+    /* border: 1px solid teal; */
+    width: 40%;
+    height: auto;
+}
+
+#estimateDate {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #DADCDF;
+}
+
+#estimateDate > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DADCDF;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+#estimateDate > div:nth-child(1) > p {
+    margin: 0;
+}
+
+#estimateDate > div:nth-child(2) {
+    box-sizing: border-box;
+    padding: 15px 10px;
+    font-size: 14px;
+    background-color: #F9FAF8;
+}
+
+#estimateDate > div:nth-child(2) > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#estimateDate > div:nth-child(2) > div > p {
+    margin-top: 0;
+
+    
 }
 
 
 
+.fa-angle-up {
+    font-size: 14px;
+}
 
+#zip {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #DADCDF;
+    width: 40%;
+}
 
-
+#zip + button {
+    width: 45%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 
