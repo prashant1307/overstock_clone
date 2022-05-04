@@ -1,0 +1,43 @@
+#account{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 25px;
+    margin: auto;
+    width: 60%;
+}
+#passdiv{
+    display: flex;
+    
+}
+
+#checkdiv{
+    border: 1px solid gray;
+    width: 80%;
+    height: 50px;
+}
+#email, #password, #confirm{
+    width: 80%;
+    padding: 10px;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: darkcyan; */
+}
+
+button:hover{
+    cursor: pointer;
+}
+#accbutton{
+    background-color: darkcyan;
+}
+#accbutton:hover{
+    background-color: rgb(40, 199, 199);
+}
+#signinbutton{
+    background-color: seagreen;
+}
+#signinbutton:hover{
+    background-color: rgb(31, 95, 60);
+}
