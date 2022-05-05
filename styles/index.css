@@ -28,7 +28,10 @@ p{
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bolder;
-}  
+} 
+#block_3{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04282022_HomeDecorRefresh_Desktopv2.jpg?imwidth=3840');
+} 
 #block_4{
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -50,6 +53,9 @@ p{
     width: 300px;
     height: 300px;
 }
+#block_6{
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/04282022_SpringTimeSlumber_INTL_Desktop.jpg?imwidth=3840');
+}
 #block_7{
     display: flex;
     justify-content: space-around;
@@ -63,8 +69,13 @@ p{
     height: 297px;
 }
 #block_8{
+    width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
+    background-image: url('https://ak1.ostkcdn.com/img/mxc/030822-RIUpdate-Dsk.jpg?imwidth=3840');
+}
+#block_8 img{
+    width: 100%;
 }
 #block_9{
     display: flex;
