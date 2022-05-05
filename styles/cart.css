@@ -43,6 +43,11 @@ h5 + p > a{
     /* border-bottom: 1px solid red; */
 }
 
+#emptyMsg {
+    font-size: 35px;
+    padding: 20px 50px;
+}
+
 #wrapper {
     width: 80%;
     height: auto;
@@ -467,9 +472,7 @@ h5 + p > a{
     /* border: 1px solid black; */
 }
 
-#couponDetails > div {
-    /* border: 1px solid teal; */
-}
+
 
 #couponDetails > div:nth-child(1) {
     padding: 10px 35px;
