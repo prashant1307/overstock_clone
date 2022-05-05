@@ -6,16 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overstock.com | Account</title>
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="./styles/account.css">
+=======
+    <link rel="shortcut icon" type="image/png" href="https://themerkle.com/wp-content/uploads-new/2017/01/overstock-logo.jpg">
+    <link rel="stylesheet" href="/styles/account.css">
+>>>>>>> Stashed changes
 </head>
 
 <body>
+    <div id="navbar"></div>
     <div id="account">
         <div id="signup">
             <h2>Create Account</h2>
             <form>
                 <p>Email Address*</p>
-                <input type="text" id="email" placeholder="Email" required>
+                <input type="email" id="email" placeholder="Email" required>
                 <div id="passdiv">
                     <div>
                         <p>Create Password*</p>
@@ -34,11 +40,16 @@
                 </div>
                 <br>
                 <button id="accbutton">Create Account</button>
+                
                 <br><br>
                 <button id="guestbutton"><a href="/cart.html">Continue as Guest</a></button>
-                <p>By creating an account or continuing as a Guest, you agree to our <a href="https://help.overstock.com/app/answers/detail/a_id/63">Terms & Conditions</a>  and <a href="https://help.overstock.com/app/answers/detail/a_id/65">Privacy Policy.</a> </p>
-                <p><a href="https://help.overstock.com/app/answers/detail/a_id/63">Terms & Conditions</a> | <a href="https://help.overstock.com/app/answers/detail/a_id/65">Privacy Policy.</a></p>
-                <p>**You can unsubscribe at any time</p>
+                <div id="detail">
+                    <p>By creating an account or continuing as a Guest, you agree to our <a href="https://help.overstock.com/app/answers/detail/a_id/63">Terms & Conditions</a>  and <a href="https://help.overstock.com/app/answers/detail/a_id/65">Privacy Policy.</a> </p>
+                    <p><a href="https://help.overstock.com/app/answers/detail/a_id/63">Terms & Conditions</a> | <a href="https://help.overstock.com/app/answers/detail/a_id/65">Privacy Policy.</a></p>
+                    <p>**You can unsubscribe at any time</p>
+                </div>
+                
+                
             </form>
 
 
@@ -47,9 +58,9 @@
         <div id="login">
             <h2>Sign In</h2>
             <p>Email Address*</p>
-            <input type="text" id="email" placeholder="Email" required>
+            <input type="text" id="regemail" placeholder="Email" required>
             <p>Password*</p>
-            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="regpassword" placeholder="Password" required>
             <br><br>
             <button id="signinbutton">Sign In</button>
             <p><a href="https://www.overstock.com/resetRequest">Forgot Password ?</a> </p>
@@ -57,15 +68,17 @@
     </div>
 
     <div id="bottom">
+        
         <p><a href="https://help.overstock.com/help/s/article/International-Returns">Return Policy</a></p>
         <p><a href="https://help.overstock.com/help/s/article/Customer-Care-Contact-Information">Contact Customer Care</a></p>
         <p><a href="https://overstock.force.com/help/s/article/International-Customer-Care">FAQ</a></p>
         <p><a href="https://help.overstock.com/help/s/article/PRIVACY-AND-SECURITY-POLICY">Privacy Policy</a></p>
         <p><a href="https://help.overstock.com/help/s/article/TERMS-AND-CONDITIONS">Site User Terms & Conditions*</a></p>
+        <img src="https://ak1.ostkcdn.com/img/mxc/20200630-intl-privacy_shield.png" alt="">
     </div>
 
 </body>
 
 </html>
 
-<script type="module" src="/overstock_clone/scripts/account.js"></script>
+<script type="module" src="/scripts/account.js"></script>

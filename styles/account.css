@@ -15,9 +15,18 @@
     width: 80%;
     height: 50px;
 }
+#detail{
+    width: 75%;
+    text-align: center;
+}
 #email, #password, #confirm{
+    width: 75%;
+    padding: 10px;
+}
+#regemail, #regpassword{
     width: 80%;
     padding: 10px;
+
 }
 button{
     width: 80%;
@@ -40,4 +49,13 @@ button:hover{
 }
 #signinbutton:hover{
     background-color: rgb(31, 95, 60);
+}
+
+#bottom{
+    width: 20%;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    
 }
