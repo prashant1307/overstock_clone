@@ -1,9 +1,10 @@
 #account{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 25px;
+    grid-gap: 25px; */
+    display: flex;
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 #passdiv{
     display: flex;
@@ -32,6 +33,8 @@ button{
     width: 80%;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
     /* background-color: darkcyan; */
 }
 
@@ -49,6 +52,7 @@ button:hover{
 }
 #signinbutton{
     background-color: seagreen;
+    
 }
 #signinbutton:hover{
     background-color: rgb(31, 95, 60);
@@ -57,8 +61,11 @@ button:hover{
 #bottom{
     width: 20%;
     margin-left: 10%;
+    line-height: 10px;
+    margin-top: 80px;
 }
 a{
     text-decoration: none;
     
 }
+

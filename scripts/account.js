@@ -1,6 +1,15 @@
-document.querySelector("#form").addEventListener("submit", signUp);
-let userData = JSON.parse(localStorage.getItem("userData")) || [];
-let flag = false;
+
+
+
+
+//  SignUP Part Starts From Here
+
+// document.querySelector("#form").getElementById("submit", signUp);
+document.getElementById("accbutton").addEventListener("click", signUp)
+var userData = JSON.parse(localStorage.getItem("userData")) || [];
+
+var flag = false;
+let username= JSON.parse(localStorage.getItem("username"))||[];
 
 function signUp(e) {
     e.preventDefault();
@@ -36,14 +45,42 @@ function signUp(e) {
 
         }
     }
-    else {
-        userData.push(userDetail)
-        localStorage.setItem("userData", JSON.stringify(userData));
-        alert("Sign Up Successfull !! Enter LogIn Credentials");
-        window.location.href = "#";
-        document.querySelector("#email").value = "";
-        document.querySelector("#password").value = "";
-        document.querySelector("#confirm").value = "";
+}
 
+
+
+// LogIn Part Starts From Here
+
+
+document.getElementById("signinbutton");
+
+function logIn(e){
+    e.preventDefault();
+
+    let email = document.querySelector("#regemail").value;
+    let pass =  document.querySelector("#regpassword").value;
+
+    let arr = JSON.parse(localStorage.getItem("userData"));
+
+    for(let i =0; i<arr.length; i++){
+        if(arr[i].userEmail === email && arr[i].conPass === c_pass )
+        {
+            let name = email[0]+email[1]+email[2]+email[3]+email[4]+email[5]+email[6]+email[7]+email[8]
+
+            // let username= JSON.parse(localStorage.getItem("username"))||[];
+
+            username.push(name)
+            localStorage.setItem("username", JSON.stringify(username));
+            flag= true;
+            alert("Login Successfull !!")
+            setTimeout(()=>{
+                window.location.href = "cart.html"
+            },1000)
+            break;
+        }
+    }
+    if(flag === false){
+        alert("Wrong Credentials")
     }
 }
+
