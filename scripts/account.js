@@ -1,32 +1,49 @@
+document.querySelector("#form").addEventListener("submit", signUp);
+let userData = JSON.parse(localStorage.getItem("userData")) || [];
+let flag = false;
 
-
-let register = async (e) => {
+function signUp(e) {
     e.preventDefault();
-    let form_data = {
-        email: document.getElementById("email").value,
-        password: document.getElementById("password").value,
-        confirm: document.getElementById("confirm").value,
-    }
+    let email = document.querySelector("#email").value;
+    let create_pass = document.querySelector("#password").value;
+    let c_pass = document.querySelector("#confirm").value;
 
-    form_data = JSON.stringify(form_data)
-    let res = await fetch("https://masai-api-mocker.herokuapp.com/auth/login", {
-        method: "POST",
-        body: form_data,
-        headers: {
-            "Content-Type": "application/json",
-        },
-    });
+    let userDetail = {
+        userEmail: email,
+        userPass: create_pass,
+        conPass: c_pass,
+    };
 
-    let data = await res.json();
-    console.log(data)
-    if (data.error === true) {
-        alert("User already exist")
+    if (userData.length != 0) {
+        let arr = JSON.parse(localStorage.getItem("userData")) || [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i].userEmail === email) {
+                flag = true;
+                break;
+            }
+        }
+        if (flag) {
+            alert("User already exists!!");
+        }
+        else {
+            userData.push(userDetail);
+            localStorage.setItem("userData", JSON.stringify(userData));
+            alert("Sign Up Successfull !! Enter LogIn Credentials");
+            window.location.href = "#";
+            document.querySelector("#email").value = "";
+            document.querySelector("#password").value = "";
+            document.querySelector("#confirm").value = "";
 
+        }
     }
     else {
-        window.location.href = "login.html"
+        userData.push(userDetail)
+        localStorage.setItem("userData", JSON.stringify(userData));
+        alert("Sign Up Successfull !! Enter LogIn Credentials");
+        window.location.href = "#";
+        document.querySelector("#email").value = "";
+        document.querySelector("#password").value = "";
+        document.querySelector("#confirm").value = "";
+
     }
-
-};
-document.getElementById("accbutton").addEventListener("click", register)
-
+}

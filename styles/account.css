@@ -40,6 +40,9 @@ button:hover{
 }
 #accbutton{
     background-color: darkcyan;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
 }
 #accbutton:hover{
     background-color: rgb(40, 199, 199);
