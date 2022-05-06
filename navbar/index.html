@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overstock.com | The Best Deals Online: Furniture, Bedding,Jewelry & More</title>
     <link rel="shortcut icon" type="image/png" href="https://themerkle.com/wp-content/uploads-new/2017/01/overstock-logo.jpg">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   
 </head>
@@ -19,8 +19,8 @@
 <body>
 
     <div class="navbar">
-
-        <div class="top_box">
+      <div id="topmost">
+        <!-- <div class="top_box">
             <div>
                 <p style="font-size:x-small; margin-left: 10px; margin-top: 10px;">Ship to:</p>
             </div>
@@ -30,12 +30,12 @@
             <div>
                 <P style="font-weight: bold; font-size: smaller; margin-left: -6px; margin-top: 8px;">INDIA</P>
             </div>
-        </div>
-    
+        </div> -->
+      </div>
         <!-- <-----------navbar----------->
         <div id="navbar">
     
-            <div id="subbox">
+            <!-- <div id="subbox">
                 <div class="a">
                     <img src="https://utahworksitewellness.org/wp-content/uploads/2018/12/Overstock-Logo-2017_RGB-1024x233.jpg" alt="">
                 </div>
@@ -94,18 +94,18 @@
                         <p id="icon">Cart</p>
                     </a>
                 </div>
-            </div>
+            </div> -->
     
         </div>
     
         <!-- <----------bootStrap---------->
-    
-        <header class="header">
+    <div id="bottom_nav">
+        <!-- <header class="header">
             <div class="container">
                 <div class="row v-center">   
                     </div>
     
-                    <!-- <-----menu------>
+                    
                     <div class="header-item item-center">
                         <nav class="menu">
                             <ul class="menu-main">
@@ -1205,10 +1205,16 @@
                     </div>
     
                 </div>
-            </div>
-
+            </div>  -->
+       </div>
     </div>
 </body>
 </html>
 
-<script src="/index.js"></script>
+<!-- <script src="/index.js"></script> -->
+<script type="module">
+    import {topmost,navbar,bottom_nav} from '../components/navbar.js';
+    document.getElementById('navbar').innerHTML=navbar()
+    document.getElementById('topmost').innerHTML=topmost()
+    document.getElementById('bottom_nav').innerHTML=bottom_nav()
+</script>

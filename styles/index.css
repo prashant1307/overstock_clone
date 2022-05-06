@@ -43,6 +43,7 @@ p{
 #block_5{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin-bottom: 50px;
     
 }
 #block_5 div{

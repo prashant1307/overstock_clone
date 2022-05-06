@@ -1,7 +1,6 @@
 
 
 
-
 //  SignUP Part Starts From Here
 
 // document.querySelector("#form").getElementById("submit", signUp);
