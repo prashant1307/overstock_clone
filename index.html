@@ -7,10 +7,10 @@
    
     <title>Document</title>
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./navbar/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="shortcut icon" type="image/png" href="https://themerkle.com/wp-content/uploads-new/2017/01/overstock-logo.jpg">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-       
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -220,7 +220,7 @@
             <h3>Rugs</h3>
         </div>
     </div>
-    
+<div id="footer"></div>
 </body>
 </html>
 
@@ -231,4 +231,7 @@
     document.getElementById('navbar').innerHTML=navbar()
     document.getElementById('topmost').innerHTML=topmost()
     document.getElementById('bottom_nav').innerHTML=bottom_nav()
+
+    import footer from '../components/footer.js'
+    document.getElementById('footer').innerHTML=footer()
 </script>
