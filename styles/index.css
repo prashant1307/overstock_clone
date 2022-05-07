@@ -5,17 +5,17 @@ h2{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: bolder;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 #block_2{
     width: 100%;
-    
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
 }
 #block_2 div{
-
+   
     width: 157px;
 }
 #block_2 img{
@@ -35,6 +35,7 @@ p{
 #block_4{
     display: grid;
     grid-template-columns: repeat(6,1fr);
+    margin-left: 50px;
 }
 #block_4 img{
     width: 190px;
@@ -44,6 +45,7 @@ p{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-bottom: 50px;
+    margin-left: 80px;
     
 }
 #block_5 div{
@@ -93,6 +95,8 @@ p{
 button{
     background-color: black;
     color: white;
+    height: 40px;
+    width: 100px;
     margin-left: 46%;
     border-radius: 10px;
     margin-top: 30px;
@@ -102,12 +106,13 @@ button{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
-    margin-left: 27px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 80px;
 }
 #block_10 div{
     width: 400.66px;
-    margin-top: 15px;
+    margin-top: 25px;
+    padding-top: 10px;
     height: 52px;
     background-color: rgb(248,248,248);
 }
