@@ -1,4 +1,4 @@
-function topmost(){
+function topmost() {
     return `        <div class="top_box">
     <div>
         <p style="font-size:x-small; margin-left: 10px; margin-top: 10px;">Ship to:</p>
@@ -12,7 +12,7 @@ function topmost(){
 </div>`
 }
 
-function navbar(){
+function navbar() {
     return ` <div id="subbox">
     <div class="a">
     
@@ -76,13 +76,10 @@ function navbar(){
 </div>`
 }
 
-function bottom_nav(){
+function bottom_nav() {
     return `<header class="header">
-    <div class="container">
-        <div class="row v-center">   
-            </div>
+    <div class="Container">
 
-            
             <div class="header-item item-center">
                 <nav class="menu">
                     <ul class="menu-main">
@@ -1177,7 +1174,9 @@ function bottom_nav(){
                                 </div>
                             </div>
                         </li>
+                       
                     </ul>
+                    
                 </nav>
             </div>
 
@@ -1185,4 +1184,4 @@ function bottom_nav(){
     </div>`
 }
 // export default navbar
-export {topmost,navbar,bottom_nav};
+export { topmost, navbar, bottom_nav };
