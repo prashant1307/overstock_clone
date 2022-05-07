@@ -1,10 +1,15 @@
 #account{
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 25px; */
-    display: flex;
+    grid-gap: 35px;
     margin: auto;
-    width: 100%;
+    width: 60%;
+}
+
+
+input{
+    border-radius: 5px;
+    border:0.5px solid rgb(139, 47, 47);
 }
 #passdiv{
     display: flex;
@@ -15,6 +20,8 @@
     border: 1px solid gray;
     width: 80%;
     height: 50px;
+    text-align: center;
+    padding-top: 5px;
 }
 #detail{
     width: 75%;
@@ -34,7 +41,7 @@ button{
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     /* background-color: darkcyan; */
 }
 
@@ -46,26 +53,68 @@ button:hover{
     width: 80%;
     padding: 10px;
     border-radius: 5px;
+    color: white;
 }
 #accbutton:hover{
     background-color: rgb(40, 199, 199);
 }
 #signinbutton{
     background-color: seagreen;
+    color: white;
+    /* margin-left: 10px; */
+    width: 85%;
     
 }
 #signinbutton:hover{
     background-color: rgb(31, 95, 60);
 }
+#guestbutton:hover{
+    background-color: antiquewhite;
+}
 
 #bottom{
-    width: 20%;
+    width: 30%;
     margin-left: 10%;
-    line-height: 10px;
+    line-height: 8px;
     margin-top: 80px;
+}
+strong{
+    color: black;
+}
+.tandc{
+    color: rgb(49, 47, 47);
+    font-weight: bold;
+    text-decoration: underline;
 }
 a{
     text-decoration: none;
+    color: rgb(90, 89, 89);
     
 }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forgot{
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkcyan;
+    margin-left: 100px;
+}
+
+/* @media all and (min-width: 220px) and (max-width: 720px){
+    #account{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+    }
+    #bottom{
+        line-height: 10px;
+        width: 80%;
+    }
+} */
+
 
