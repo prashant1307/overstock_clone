@@ -1,6 +1,7 @@
 
 
 
+
 //  SignUP Part Starts From Here
 
 // document.querySelector("#form").getElementById("submit", signUp);
@@ -51,7 +52,7 @@ function signUp(e) {
 // LogIn Part Starts From Here
 
 
-document.getElementById("signinbutton");
+document.getElementById("signinbutton").addEventListener("click", logIn);
 
 function logIn(e){
     e.preventDefault();
@@ -62,7 +63,7 @@ function logIn(e){
     let arr = JSON.parse(localStorage.getItem("userData"));
 
     for(let i =0; i<arr.length; i++){
-        if(arr[i].userEmail === email && arr[i].conPass === c_pass )
+        if(arr[i].userEmail === email && arr[i].conPass === pass )
         {
             let name = email[0]+email[1]+email[2]+email[3]+email[4]+email[5]+email[6]+email[7]+email[8]
 
@@ -74,7 +75,7 @@ function logIn(e){
             alert("Login Successfull !!")
             setTimeout(()=>{
                 window.location.href = "cart.html"
-            },1000)
+            },800)
             break;
         }
     }
@@ -82,4 +83,7 @@ function logIn(e){
         alert("Wrong Credentials")
     }
 }
+
+
+
 
