@@ -1,8 +1,9 @@
+
 let productData = [
 
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/7d66e6eb5a2deb834ef34770354830d0df32670a/Cambridge-Casual-Alston-Porch-Rocking-Chair.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/26acd2aeb45286792083d5e8ae5828a3ced7c5e0/12-Light-46In-Modern-Farmhouse-Wagon-Wheel-Chandelier.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 13654.57",
      rating : 4.2,
      title : "Cambridge Casual Alston Outdoor Rocking Chair"
@@ -11,7 +12,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/b5cb64381e8f2fed3bbe51ed75d04ebf129cc02d/Veradek-Brixton-Window-Box-36%22-Planter.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/69beb137e0281ec074f70d5e0cce2e69da9ab120/Solar-LED-Firework-Garden-Stake-Light.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 6476.31",
      rating : 4.8,
      title : "Veradek Brixton Series 36' Planter box",
@@ -20,7 +21,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/92e8e8a36e87cb6935ea78091b041debff5e710b/Brookside%C2%A0Iris%C2%A0Rattan-Outdoor-Seating-Set%C2%A0with-Patio-Table%C2%A0.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/2b53258638987449ea2c9e1654d7c2cb119125e4/Drusilla-Single-Light-Rattan-Pendant-Light.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 22117.28",
      rating : 4,
      title : "Brookside Iris Rattan Outdoor Seating Set"
@@ -29,7 +30,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/c4741064f0b76314e8ad8088d41406a85b5c0b39/Outsunny-6%27-L-x-8%27-W-x-7%27-H-Outdoor-Walk-In-Tunnel-Greenhouse-with-3-Levels-of-Shelving%2C-Roll-up-Door%2C-%26-Weather-Cover.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/2b53258638987449ea2c9e1654d7c2cb119125e4/Drusilla-Single-Light-Rattan-Pendant-Light.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 4613.73",
      rating : 4,
      title : "Outsunny 6'L x 7'H Outdoor Walk-in Tunnel Greenhouse with 3-Levels of Shelving,Roll-up Door, & Weather Cover"
@@ -38,7 +39,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/2ce5434ee0008bdb6fd6ac752e28a3f45ead7a7d/3-pc.-Outdoor-Cushioned-Wicker-Chat-Set.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/931085e71ac0ddd9077dd16ea5d90becde5e8165/ExBrite-Modern-Rose-Gold-3-4-light-Bathroom-Crystal-Vanity-Lights-Wall-Sconces.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 13745.26",
      rating : 4.1,
      title : "3-pc Outdoor Cushioned Wicker Chat Set"
@@ -47,7 +48,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/12306079/Keter-Novel-90-gallon-Brown-Plastic-Deck-Storage-Box-e8568c25-a562-4d45-b01f-df14f7364d1f_600.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/0d4562e2d0a6b9f7627488f819ea66df9d0a7b1c/2-Light-Natural-Rattan-Flush-Mount-Ceiling-Light.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 9525.67",
      rating : 4.1,
      title : "Keter Novel 90-gallon Brown Plastic Deck Storage Box"
@@ -56,7 +57,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/90e38a8b20ab04904d9c818e81c3a2adf8fc1c57/Metallic-Series-Long-Box-Planter.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/4f69844945594432f911253b48d413e21ab8879a/Silver-Orchid-Gotho-Matte-Black--Polished-Nickel-Floor-Lamp.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 10262.51",
      rating : 4.9,
      title : "Metallic Series Long Planter"
@@ -65,7 +66,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/119e7e38ea488fdbeb4703188cdd3bec732550ab/SUNCROWN-4-foot-Wooden-Raised-Garden-Bed.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/b428e7e683a4ebd67bda49c98410530479a22732/Abalone-Glass-Pendant-Light-by-Hampton-Hill.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 8247.33",
      rating : 4.2,
      title : "SUNCROWN 4-foot Wooden Raised Garden Bed"
@@ -74,7 +75,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/90544efd79e696054930a593e3a12f380f4025c8/Suncrown-Outdoor-5-Piece-Wicker-Patio-Canopy-Daybed.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/1012a75eb110addbb3c98c30630617e8693b6b5e/Unique-Luxury-Tier-Antique-Brass-Crystal-Chandelier.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 58768.10",
      rating : 4,
      title : "Nuon %-peice Outdoor Wicker Patio Cabopy Daybed Set by Havenside Kome"
@@ -83,7 +84,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/dfae9e1528eecd80fd4d0b5a102ffb351b2a24b5/Laguna-Poly-Folding-Adirondack-Chair-%28Set-of-4%29.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/4f51703f1158512f546ce33e3d0e8488b91e5330/Bartlett-Semi-Flush-Mount-Ceiling-Light-with-Clear-Glass.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 589669.53",
      rating : 4.8,
      title : "Laguna Ploy Folding Adirondack Chair (Set of 4)"
@@ -92,7 +93,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/7458c550be8ec2584ca4479ce72499332bab6af5/Glitzhome-20.5%22H-Cobalt-Blue-Ceramic-Outdoor-Fountain-with-LED-Light.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/02aded10317e656a54293962ba0f18fe612ec5dd/1-light-7-in.--9.5-in.-Outdoor-Black-Metal-Wall-Sconce-w--Clear-Glass-Shade.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 13562.14",
      rating : 4.5,
      title : "Demta Cobalt Blue Creamic Founding with LED Light by Havenside Home"
@@ -101,7 +102,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/a122ab1e7c8a2e1bbedaef03ab3111050cd19b73/Brixton-Tall-28%22-Planter.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/0b2d4e9f5a4aada3cfd6df1102c3e0e029ef2d5c/Flamingo-Gold-%26-White-Table-Lamp.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 6414.40",
      rating : 5,
      title : "Veradek Briton Tall 28' Planter",
@@ -110,8 +111,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/f87d39b3135feb7500b05112f81f0ed604088b85/Set-of-2-Zero-Gravity-Chair-Patio-Folding-Lawn-Lounge-Chairs-Outdoor-Lounge-Gravity-Chair-Camp-Reclining-Lounge-Chair.jpg?imwidth=480&impolicy=medium",
-     name : "Sale Start at INR 11175.49",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/2bf5a8fe43a9b41686cd653022e55d3083ed79d2/Brink-LED-Bathroom-Vanity-or-Wall-Light.jpg?imwidth=480&impolicy=medium",
      rating : 4.5,
      title : "Homall Patio Zero Gravity Chair Lawn Lounge Chair with Pillow Set of 2"
  
@@ -119,7 +119,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/cb19b033eb05c2103ee8380ff37add3f22280471/Alpine-Corporation-Plastic-Birdbath-with-Scrollwork.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/b68e7efa92b1279bbab12a410b713934e7080252/Modern-Farmhouse-6-light-Black--Gold-French-Candle-Chandelier-for-Dining-Room.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 2552.33",
      rating : 4.3,
      title : "Alpine Corporation 28' Tall Outside Birdbath with Scrollwork Decoration Yard Statue"
@@ -128,7 +128,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/f2541011903e0ed2c7c59b72bb469682487351e3/28%27%27-Square-Glass-Metal-Table-with-Rattan-Edging-and-4-Rattan-Stack-Chairs.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/8693f7c598d0fa6ecf70ecd0952515176e070f51/23.5%22W-Bryar-Brass-and-Crystal-3-Light-Chandelier.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 19997.46",
      rating : 4.5,
      title : "28' Square Glass Metal Table with Rattan Edging and 4 Rattan Atack Chairs"
@@ -137,7 +137,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/afd54b49d56b8b52897a588590c3676c566623f2/EROMMY12%22-x-16-%22-Hardtop-Gazebo%2CPermanent-Outdoor-Patio-Gazebo.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/69e83a907b53ff0f4e447e97b5b369de0b5a6a2e/Abbyson-Holloway-Mid-Century-Top-Grain-Leather-Sectional.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 114798.14",
      rating : 4.6,
      title : "EROMMY Hardtop Gazebo, Permanent Outdoor Patio Gazebo"
@@ -146,7 +146,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/0138b9ee2a29ec0867945215c23a7f4b450e186a/Alpine-Corporation-3-Tier-Rustic-Barrel-Outdoor-Fountain%2C-40-Inches.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/69beb137e0281ec074f70d5e0cce2e69da9ab120/Solar-LED-Firework-Garden-Stake-Light.jpg?imwidth=480&impolicy=mediumm",
      name : "Sale INR 10680.19",
      rating : 4.7,
      title : "Alpino Corporation 40' Tall Outdoor 3-Tier Barrel Pump Waterfall Fountain, Brown"
@@ -155,7 +155,7 @@ let productData = [
  
     {
  
-     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/978343afb933fd75d941eab803946d1f8fc9ae5d/SAFAVIEH-Outdoor-Living-Newport-Brown-Cart-Wheel-Adjustable-Chaise.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/3f25c4171ef29c7807f25806a98da41809a743a3/HomePop-Draper-Large-Decorative-Bench-with-Button-Tufting---Light-Brown-Faux-Leather.jpg?imwidth=480&impolicy=medium",
      name : "Sale INR 29886.76",
      rating : 4.6,
      title : "SAFAVIEH Outdoor Living Newport Brown Cart Wheel Adjustment Chaise-27.6' x 14.2'"
@@ -164,7 +164,7 @@ let productData = [
  
      {
  
-     image : "https://ak1.ostkcdn.com/images/products/15858927/Siscovers-Fiji-Outdoor-Accent-Pillow-39f86360-14bd-4464-8dad-50cc1c85c02b_600.jpg?imwidth=480&impolicy=medium",
+     image : "https://ak1.ostkcdn.com/images/products/is/images/direct/4f51703f1158512f546ce33e3d0e8488b91e5330/Bartlett-Semi-Flush-Mount-Ceiling-Light-with-Clear-Glass.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 2931.65",
      rating : 5,
      title : "Siscover Fiji Indoor - Outdoor Tropical Throw Pillow"
@@ -173,21 +173,21 @@ let productData = [
  
      {
  
-         image : "https://ak1.ostkcdn.com/images/products/30970154/Outsunny-3.3ft-Wooden-Garden-Bridge-Arc-Stained-Finish-Walkway-with-Half-Wheeled-Railings-Stained-Wood-3d6fb362-56ab-4e43-a986-187ff29eb802_600.jpg?imwidth=480&impolicy=medium",
+         image : "https://ak1.ostkcdn.com/images/products/is/images/direct/3630d83ffa23db1e8aa1321b757634d68da86a8a/Modern-Gold-3-light-Bathroom-Vanity-Light-Globe-Glass-Wall-Sconces.jpg?imwidth=480&impolicy=medium",
          name : "Sale INR 7970.91",
          rating : 4,
          title : "Half Wheeled Rating, Stained Wood"
      
      },
- 
      {
  
-         image : "https://ak1.ostkcdn.com/images/products/is/images/direct/528d4ffe31b6ea9201101840de9ac17202ebfb54/Sunjoy-11-Ft.-x-11-Ft.-Pop-Up-Portable-Steel-Gazebo.jpg?imwidth=480&impolicy=medium",
-         name : "Sale INR 78232.78",
-         rating : 4.3,
-         title : "COSIEST 4-piece Patio Outdoor Cushioned Wicker Sectional Sofa Set "
-     
-     },
+        image : "https://ak1.ostkcdn.com/images/products/is/images/direct/3630d83ffa23db1e8aa1321b757634d68da86a8a/Modern-Gold-3-light-Bathroom-Vanity-Light-Globe-Glass-Wall-Sconces.jpg?imwidth=480&impolicy=medium",
+        name : "Sale INR 7970.91",
+        rating : 4,
+        title : "Half Wheeled Rating, Stained Wood"
+    
+    },
+ 
  
  ]
  
