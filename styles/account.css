@@ -1,42 +1,51 @@
-#account{
+#accountdiv {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
     margin: auto;
     width: 60%;
 }
 
 
-input{
+input {
     border-radius: 5px;
-    border:0.5px solid rgb(139, 47, 47);
-}
-#passdiv{
-    display: flex;
-    
+    border: 0.5px solid rgb(139, 47, 47);
+
 }
 
-#checkdiv{
+#passdiv {
+    display: flex;
+
+}
+
+#checkdiv {
     border: 1px solid gray;
     width: 80%;
     height: 50px;
     text-align: center;
     padding-top: 5px;
 }
-#detail{
+
+#detail {
     width: 75%;
     text-align: center;
 }
-#email, #password, #confirm{
+
+#email,
+#password,
+#confirm {
     width: 75%;
     padding: 10px;
 }
-#regemail, #regpassword{
+
+#regemail,
+#regpassword {
     width: 80%;
     padding: 10px;
 
 }
-button{
+
+button {
     width: 80%;
     padding: 10px;
     border-radius: 5px;
@@ -45,68 +54,79 @@ button{
     /* background-color: darkcyan; */
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
-#accbutton{
+
+#accbutton {
     background-color: darkcyan;
     width: 80%;
     padding: 10px;
     border-radius: 5px;
     color: white;
 }
-#accbutton:hover{
+
+#accbutton:hover {
     background-color: rgb(40, 199, 199);
 }
-#signinbutton{
+
+#signinbutton {
     background-color: seagreen;
     color: white;
     /* margin-left: 10px; */
     width: 85%;
-    
+
 }
-#signinbutton:hover{
+
+#signinbutton:hover {
     background-color: rgb(31, 95, 60);
 }
-#guestbutton:hover{
+
+#guestbutton:hover {
     background-color: antiquewhite;
 }
 
-#bottom{
+#bottom {
     width: 30%;
     margin-left: 10%;
     line-height: 8px;
     margin-top: 80px;
 }
-strong{
+
+strong {
     color: black;
 }
-.tandc{
+
+.tandc {
     color: rgb(49, 47, 47);
     font-weight: bold;
     text-decoration: underline;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(90, 89, 89);
-    
+
 }
-h2{
+
+h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
-p{
+
+p {
     color: dimgray;
     font-family: Arial, Helvetica, sans-serif;
 }
-.forgot{
+
+.forgot {
     font-weight: bold;
     text-decoration: underline;
     color: darkcyan;
     margin-left: 100px;
 }
 
-/* @media all and (min-width: 220px) and (max-width: 720px){
-    #account{
+@media all and (min-width: 220px) and (max-width: 720px){
+    #accountdiv{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: auto;
@@ -115,6 +135,4 @@ p{
         line-height: 10px;
         width: 80%;
     }
-} */
-
-
+}

@@ -1,4 +1,4 @@
-function topmost(){
+function topmost() {
     return `        <div class="top_box">
     <div>
         <p style="font-size:x-small; margin-left: 10px; margin-top: 10px;">Ship to:</p>
@@ -12,9 +12,10 @@ function topmost(){
 </div>`
 }
 
-function navbar(){
+function navbar() {
     return ` <div id="subbox">
     <div class="a">
+    
         <img src="https://utahworksitewellness.org/wp-content/uploads/2018/12/Overstock-Logo-2017_RGB-1024x233.jpg" alt="">
     </div>
 </div>
@@ -34,15 +35,11 @@ function navbar(){
                     <h6>Sign In</h6>
                     <p>View your accountand check your order status</p>
                     </a></li>
-                <li><a href="createAccount.html">
+                <li><a href="account.html">
                     <h6>Create an Account</h6>
                     <p>Track order, save items to lists and morel</p>
                     </a></li>
-                <li><a href="myAccount.html">My Account</a></li>
-                <li><a href="myOrder.html">My Order</a></li>
-                <li><a href="myReviews">My Reviews</a></li>
-                <li><a href="help"></a>Help</li>
-            </ul>
+                
         </div>
         
        
@@ -75,13 +72,10 @@ function navbar(){
 </div>`
 }
 
-function bottom_nav(){
+function bottom_nav() {
     return `<header class="header">
-    <div class="container">
-        <div class="row v-center">   
-            </div>
+    <div class="Container">
 
-            
             <div class="header-item item-center">
                 <nav class="menu">
                     <ul class="menu-main">
@@ -1176,7 +1170,9 @@ function bottom_nav(){
                                 </div>
                             </div>
                         </li>
+                       
                     </ul>
+                    
                 </nav>
             </div>
 
@@ -1184,4 +1180,4 @@ function bottom_nav(){
     </div>`
 }
 // export default navbar
-export {topmost,navbar,bottom_nav};
+export { topmost, navbar, bottom_nav };
