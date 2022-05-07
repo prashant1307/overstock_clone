@@ -39,7 +39,11 @@ function navbar() {
                     <h6>Create an Account</h6>
                     <p>Track order, save items to lists and morel</p>
                     </a></li>
-                
+                <li><a href="account.html">My Account</a></li>
+                <li><a href="cart.html">My Order</a></li>
+                <li><a href="account.html">My Reviews</a></li>
+                <li><a href="help"></a>Help</li>
+            </ul>
         </div>
         
        
