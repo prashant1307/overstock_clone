@@ -1,32 +1,53 @@
+import {topmost,navbar,bottom_nav} from "../components/navbar.js";
 
-if (arr.length == 0)
-{
-    empty();
-} else
-{
-    showProduct();
+
+
+document.getElementById("topmost").innerHTML = topmost();
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("bottom_nav").innerHTML = bottom_nav();
+
+
+
+
+
+var cartProducts = JSON.parse(localStorage.getItem("cartData"));
+// console.log(cartData);
+
+displayData(cartProducts);
+
+// Calculating total price of items
+var total = cartProducts.reduce(function(sum,elem){
+    return sum + Number(elem.price);
+}, 0);
+
+
+console.log(total);
+document.getElementById("finalTotal").innerText = `${total}`;
+document.querySelector("#sumtotal").innerText = `${total}`;
+
+
+let displayData = (cartProducts) => {
+
+    cartProducts.map((elem,index) => {
+        var product = document.createElement("div");
+        product.setAttribute("class","productBox");
+        
+    });
+
+}
+
+let removeItem = (elem,index) => {
+    console.log(elem,index);
+    cartProducts.splice(index,1);
+    console.log(cartProducts);
+    localStorage.setItem("cartData",JSON.stringify(cartProducts));
+    window.location.reload();
+    //displayData(cartProducts);
 }
 
 
-function empty() {
-    let msg = document.createElement("h2");
-    msg.setAttribute("id","emptyMsg");
-    msg.innerText = "Your shopping cart is empty."
 
-    document.getElementsByClassName(".counter").innerText = "(0)";
-    document.getElementsByClassName(".total").innerText = "$0.00";
-    document.getElementById("finalTotal").innerText = "$0.00";
-}
-
-function showProduct() {
-    document.getElementById("productImage").src = url;
-    document.getElementById("productName").innerText = "name";
-    document.getElementById("productPrice").innerText = price;
-
-    document.getElementsByClassName(".counter").innerText = "(${length})";
-    document.getElementsByClassName(".total").innerText = total;
-    document.getElementById("finalTotal").innerText = total;
-}
+document.querySelector(".counter").innerText = cartProducts.length;
 
 
 

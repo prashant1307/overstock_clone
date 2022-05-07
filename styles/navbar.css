@@ -48,6 +48,7 @@
     /* border: 2px solid black; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     position: relative;
+    
 }
 #search{
     width: 60%;
@@ -275,6 +276,7 @@ ul{
     margin: 0;
     visibility: visible;
     opacity: 1;
+    background-color: white;
 
 }
 .header .menu > ul >li .sub-menu > ul >li{

@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/cart.css"/>
+    <link rel="stylesheet" href="./styles/navbar.css"/>
     <script
       src="https://kit.fontawesome.com/24c494a6b6.js"
       crossorigin="anonymous"
     ></script>
 </head>
 <body>
-
+    <div id="topmost"></div>
     <div id="navbar"></div>
+    <div id="bottom_nav"></div>
     
     <!-- main cart section -->
 
@@ -343,7 +345,7 @@
                 <div id="checkout_section">
                     <div id="total">
                         <div>
-                            <p><span class="counter">(0)</span> Items:</p>
+                            <p><span class="counter"></span> Items:</p>
                             <p class="total">$0.00</p>
                         </div>
                         <div>
@@ -425,3 +427,4 @@
     </div>
 </body>
 </html>
+<script type="module" src="./scripts/cart.js"></script>

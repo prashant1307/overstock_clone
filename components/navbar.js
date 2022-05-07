@@ -1184,4 +1184,4 @@ function bottom_nav(){
     </div>`
 }
 // export default navbar
-export {topmost,navbar,bottom_nav}
+export {topmost,navbar,bottom_nav};
