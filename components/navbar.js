@@ -15,6 +15,7 @@ function topmost(){
 function navbar(){
     return ` <div id="subbox">
     <div class="a">
+    
         <img src="https://utahworksitewellness.org/wp-content/uploads/2018/12/Overstock-Logo-2017_RGB-1024x233.jpg" alt="">
     </div>
 </div>
@@ -34,13 +35,13 @@ function navbar(){
                     <h6>Sign In</h6>
                     <p>View your accountand check your order status</p>
                     </a></li>
-                <li><a href="createAccount.html">
+                <li><a href="account.html">
                     <h6>Create an Account</h6>
                     <p>Track order, save items to lists and morel</p>
                     </a></li>
-                <li><a href="myAccount.html">My Account</a></li>
-                <li><a href="myOrder.html">My Order</a></li>
-                <li><a href="myReviews">My Reviews</a></li>
+                <li><a href="account.html">My Account</a></li>
+                <li><a href="cart.html">My Order</a></li>
+                <li><a href="account.html">My Reviews</a></li>
                 <li><a href="help"></a>Help</li>
             </ul>
         </div>

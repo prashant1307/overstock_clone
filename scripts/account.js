@@ -1,3 +1,7 @@
+import { topmost, navbar, bottom_nav } from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar()
+document.getElementById("topmost").innerHTML = topmost()
+document.getElementById("bottom_nav").innerHTML =bottom_nav()
 
 
 
@@ -9,7 +13,7 @@ document.getElementById("accbutton").addEventListener("click", signUp)
 var userData = JSON.parse(localStorage.getItem("userData")) || [];
 
 var flag = false;
-let username= JSON.parse(localStorage.getItem("username"))||[];
+let username = JSON.parse(localStorage.getItem("username")) || [];
 
 function signUp(e) {
     e.preventDefault();
@@ -54,32 +58,31 @@ function signUp(e) {
 
 document.getElementById("signinbutton").addEventListener("click", logIn);
 
-function logIn(e){
+function logIn(e) {
     e.preventDefault();
 
     let email = document.querySelector("#regemail").value;
-    let pass =  document.querySelector("#regpassword").value;
+    let pass = document.querySelector("#regpassword").value;
 
     let arr = JSON.parse(localStorage.getItem("userData"));
 
-    for(let i =0; i<arr.length; i++){
-        if(arr[i].userEmail === email && arr[i].conPass === pass )
-        {
-            let name = email[0]+email[1]+email[2]+email[3]+email[4]+email[5]+email[6]+email[7]+email[8]
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].userEmail === email && arr[i].conPass === pass) {
+            let name = email[0] + email[1] + email[2] + email[3] + email[4] + email[5] + email[6] + email[7] + email[8]
 
             // let username= JSON.parse(localStorage.getItem("username"))||[];
 
             username.push(name)
             localStorage.setItem("username", JSON.stringify(username));
-            flag= true;
+            flag = true;
             alert("Login Successfull !!")
-            setTimeout(()=>{
-                window.location.href = "cart.html"
-            },800)
+            setTimeout(() => {
+                window.location.href = "index.html"
+            }, 800)
             break;
         }
     }
-    if(flag === false){
+    if (flag === false) {
         alert("Wrong Credentials")
     }
 }
