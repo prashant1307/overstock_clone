@@ -121,7 +121,7 @@ fieldset > div {
     /* border: 1px solid #DADCDF; */
 }
 
-#total {
+#totalDiv {
     width: 100%;
     height: auto;
     border: 1px solid #DADCDF;
@@ -130,7 +130,7 @@ fieldset > div {
     padding: 20px;
 }
 
-#total > div {
+#totalDiv > div {
     display: flex;
     justify-content: space-between;
     /* border: 1px solid black; */
@@ -142,12 +142,12 @@ fieldset > div {
     
 }
 
-#total > div:nth-child(3) {
+#totalDiv > div:nth-child(3) {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-#total > div:nth-child(2) > p:nth-child(1) {
+#totalDiv > div:nth-child(2) > p:nth-child(1) {
     font-weight: 300;
 }
 
@@ -275,7 +275,7 @@ fieldset > div {
 
 #month,#year,#cvv {
     width: 30%;
-    padding: 10px 0px;
+    padding: 10px 10px;
     border: 1px solid #DADCDF;
     border-radius: 5px;
 }

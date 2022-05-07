@@ -83,7 +83,7 @@ h5 + p > a{
     /* border: 1px solid #DADCDF; */
 }
 
-#total {
+#totalDiv {
     width: 100%;
     height: auto;
     border: 1px solid #DADCDF;
@@ -91,7 +91,7 @@ h5 + p > a{
     padding: 20px;
 }
 
-#total > div {
+#totalDiv > div {
     display: flex;
     justify-content: space-between;
     /* border: 1px solid black; */
@@ -103,12 +103,12 @@ h5 + p > a{
     
 }
 
-#total > div:nth-child(3) {
+#totalDiv > div:nth-child(3) {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-#total > div:nth-child(2) > p:nth-child(1) {
+#totalDiv > div:nth-child(2) > p:nth-child(1) {
     font-weight: 300;
 }
 
@@ -201,7 +201,14 @@ h5 + p > a{
       padding: 10px;
       border-radius: 5px;
       cursor: pointer;
+      
   }
+
+  #checkoutBtn > span > i {
+      color: white;
+      font-size: 16px;
+  }
+ 
 
   #paypal {
       margin-top: 10px;
@@ -602,51 +609,67 @@ h5 + p > a{
     padding: 20px;
     margin-bottom: 20px;
     justify-content: space-between;
+    border: 1px solid #DADCDF;
 }
 
-#leftProductBox {
+/* #leftProductBox {
     width: 60%;
     height: auto;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid black; */
-}
+    border: 1px solid black;
+} */
 
+#imageDiv {
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+    /* text-align: left; */
+}
 #productImage {
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 
 #productDetails {
+    width: 55%;
     box-sizing: border-box;
     padding: 0px 10px;
     text-align: left;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
-#productDetails > p:nth-child(1) {
+#productName {
     font-size: 14px;
     margin: 0;
 }
 
-#productDetails > p:nth-child(2) {
+#productPrice {
     font-size: 18px;
     font-weight: bold;
 }
 
-#productDetails > select {
+select {
     padding: 8px 17px;
     border-color: #DADCDF;
     border-radius: 5px;
     font-size: 15px;
 }
 
-#productDetails > div {
+#removeDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+
 }
 
-#rightDeliveryBox {
-    /* border: 1px solid teal; */
+#remove,#saveLater {
+    width: 30%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* #rightDeliveryBox {
+    border: 1px solid teal;
     width: 40%;
     height: auto;
 }
@@ -708,5 +731,5 @@ h5 + p > a{
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
-}
+} */
 
