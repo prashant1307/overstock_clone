@@ -200,7 +200,7 @@ let productData = [
  ]
  
  let cartData = JSON.parse(localStorage.getItem("cart")) || []
- // let listData = JSON.parse(localStorage.setItem("list")) || []
+ let listData = JSON.parse(localStorage.getItem("list")) || []
  
  displayData(productData)
  function displayData(productData){
@@ -225,6 +225,14 @@ let productData = [
          let title = document.createElement("p")
          title.innerText = elem.title;
          title.setAttribute("class","tit")
+
+    //      let e = document.createElement("h5");
+    // e.setAttribute("class","sourceText");
+    // e.append('<i class="fa fa-trash-o" aria-hidden="true"></i>');
+
+
+         let box2 = document.createElement("div")
+         box2.setAttribute("class","boxer")
      
          let btn = document.createElement("button")
          btn.innerText = "ADD TO CART"
@@ -233,13 +241,17 @@ let productData = [
          });
          btn.setAttribute("class","bt")
      
-         // let btn1 = document.createElement("button")
-         // btn.innerText = "ADD TO WISHLIST"
-         // btn.addEventListener("click",function(){
-         //     wishlist(elem);
-         // });
+         let btn2 = document.createElement("button")
+         btn2.innerText = "ADD TO WISHLIST"
+         btn2.addEventListener("click",function(){
+             wishlist(elem);
+         });
+         btn2.setAttribute("class","button")
+
+         box2.append(btn,btn2)
      
-         box.append(img, name, rating, title, btn);
+         box.append(img, name, rating,title,box2);
+
          document.querySelector("#container").append(box)
      });
  
@@ -252,11 +264,11 @@ let productData = [
      localStorage.setItem("cart",JSON.stringify(cartData))
  }
  
- // function wishlist(elem){
- //     console.log(elem);
- //     listData.push(elem)
- //     localStorage.setItem("list",JSON.stringify(listData))
- // }
+ function wishlist(elem){
+     console.log(elem);
+     listData.push(elem)
+     localStorage.setItem("list",JSON.stringify(listData))
+ }
  
  function handlerating() {
      document.querySelector("#container").innerHTML = ""
