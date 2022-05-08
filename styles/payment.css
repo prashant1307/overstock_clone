@@ -75,6 +75,7 @@ fieldset > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #FFC439;
+    border: none;
 
 }
 
@@ -84,6 +85,7 @@ fieldset > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #003087;
+    border: none;
 }
 
 
@@ -159,6 +161,7 @@ fieldset > div {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 
 #shipping {
@@ -288,6 +291,7 @@ fieldset > div {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 
 /* reward section  */
