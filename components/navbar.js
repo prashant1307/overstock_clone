@@ -50,7 +50,7 @@ function navbar() {
         
     </div>
     <div id="icon">
-        <a href="list.html">
+        <a href="wishlist.html">
             <span><i class="fa-regular fa-heart"></i></span>
             <p id="icon">Lists</p>
         </a>
@@ -68,7 +68,7 @@ function navbar() {
         </div>
     </div>
     <div id="icon">
-        <a href="cart">
+        <a href="cart.html">
             <span><i class="fa-solid fa-cart-shopping"></i></span>
             <p id="icon">Cart</p>
         </a>
