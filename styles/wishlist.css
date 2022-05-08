@@ -1,11 +1,23 @@
 #products {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    row-gap: 30px;
     font-size: 14px;
     justify-content: space-between;
     margin-left: 50px;
-    width: 1180px;
-    height: 400px;
+    width: 80%;
+    /* border: 2px solid blue; */
+    
 }
+
+img{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
 /* #topmost {
     margin-top: 50px;
 } */
@@ -13,15 +25,27 @@
     margin-left: -40px;
     
 }
-#products > div {
+#favbtn {
+    border: none;
+    background-color: none;
+    background: none;
+}
+.p1 {
+    /* margin-bottom: 8px; */
+    font-weight: bold;
+    color: #f30b3d;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+/* #products > div {
     width: 24%;
     box-sizing: border-box;
-}
+} */
 
-#products > div > img {
+/* #products > div > img {
     width: 100%;
     height: 60%;
-}
+} */
 
 #products > div > button {
     width: 100%;
@@ -129,7 +153,22 @@ hr {
 #userForm {
     margin-left: 100px;
  }
- 
- 
 
- 
+ .rat{
+    padding-left: 10px;
+}
+.nam{
+    padding-left: 10px;
+    color:#f30b3d;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "poppins";
+}
+.tit{
+    padding-left: 10px;
+    color: #6a6b6c;
+    font-family: "poppins";
+}
+#product {
+    border: 1px solid red;
+}
