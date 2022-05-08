@@ -623,7 +623,7 @@ h5 + p > a{
 #imageDiv {
     width: 40%;
     height: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* text-align: left; */
 }
 #productImage {
@@ -636,7 +636,7 @@ h5 + p > a{
     box-sizing: border-box;
     padding: 0px 10px;
     text-align: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #productName {
