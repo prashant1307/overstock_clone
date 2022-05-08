@@ -1,4 +1,9 @@
- 
+ .a img{
+     height: 50px;
+     margin-top: 9px ;
+     padding-left: 15px;
+     width: 80%;
+ }
 
 .top_box{
     width: 100%;
@@ -60,9 +65,11 @@
     position: relative;
     border-radius: 5px;
     font-family: "poppins";
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 15px;
     
 }
+
 #navbar > #account{
     /* border: 2px solid red; */
     width: 15%;
