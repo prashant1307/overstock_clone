@@ -46,3 +46,7 @@ function getDetails() {
 function gotoLast() {
     window.location.href = "last.html";
 }
+document.querySelector("#logoImage").addEventListener("click",connect)
+    function connect(){
+        window.location.href="index.html"
+    }
