@@ -81,6 +81,7 @@ h5 + p > a{
     width: 24%;
     height: auto;
     /* border: 1px solid #DADCDF; */
+    border: no;
 }
 
 #totalDiv {
@@ -201,6 +202,7 @@ h5 + p > a{
       padding: 10px;
       border-radius: 5px;
       cursor: pointer;
+      border: none;
       
   }
 
@@ -217,6 +219,7 @@ h5 + p > a{
       background-color: #FFC439;
       border-radius: 5px;
       cursor: pointer;
+      border:none;
   }
 
   #stockCreditCard {
@@ -658,14 +661,24 @@ select {
 
 #removeDiv {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+
 
 }
 
 #remove,#saveLater {
     width: 30%;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+#saveLater{
+    transition: all 0.3s ease;
+}
+   p:hover{
+    color: white;
+    background-color:#fc6486;
 }
 
 /* #rightDeliveryBox {
