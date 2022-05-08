@@ -10,7 +10,7 @@ document.getElementById("bottom_nav").innerHTML = bottom_nav();
 
 
 
-var cartProducts = JSON.parse(localStorage.getItem("cart"));
+var cartProducts = JSON.parse(localStorage.getItem("cart")) || [];
 // console.log(cartData);
 // var cartProducts = [{image: "https://ak1.ostkcdn.com/images/products/is/images/direct/46a2619bf7e2515d8d79a4b5e658a5a3f78d02d1/LUCID-Comfort-Collection-10-inch-Luxury-Gel-Memory-Foam-Mattress.jpg?impolicy=mediumlow",
 //                      name: "LUCID Comfort Collection 10-inch Luxury Gel Memory Foam Mattress",
@@ -21,7 +21,7 @@ if (cartProducts.length === 0)
 {
     let h1 = document.createElement("h1");
     h1.innerText = "Your Cart is Empty";
-    document.getElementById("showProduct").append("h1");
+    document.getElementById("showProduct").append(h1)
 } else
 {
     displayData(cartProducts);
@@ -61,11 +61,11 @@ function displayData(cartProducts) {
 
         let product_name = document.createElement("p");
         product_name.setAttribute("id","productName");
-        product_name.innerText = elem.name;
+        product_name.innerText = elem.title;
 
         let product_price = document.createElement("p");
         product_price.setAttribute("id","productPrice");
-        product_name.innerText = `₹${elem.price}`; 
+        product_price.innerText = `₹${elem.price}`; 
         
         let selectTag = document.createElement("select");
 
@@ -121,9 +121,9 @@ let removeItem = (elem,index) => {
     console.log(elem,index);
     cartProducts.splice(index,1);
     console.log(cartProducts);
-    localStorage.setItem("cartData",JSON.stringify(cartProducts));
+    localStorage.setItem("cart",JSON.stringify(cartProducts));
     window.location.reload();
-    //displayData(cartProducts);
+    displayData(cartProducts);
 }
 
 document.getElementById("checkoutBtn").addEventListener("click",gotoPayment);
