@@ -101,15 +101,35 @@ img{
     font-family: "poppins";
 }
 .bt{
+    /* display: inline; */
     background-color: teal;
     color: white;
     height: 40px;
     padding: 8px 15px 8px 15px;
     margin-bottom: 10px;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     border-radius: 8px;
+    font-weight: bold;
     border: none;
     font-family: "poppins";
+}
+.button{
+    background-color: teal;
+    color: white;
+    height: 40px;
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 10px;
+    /* margin-left: 25%; */
+    border-radius:8px;
+    font-weight: bold;
+    border: none;
+    font-family: "poppins";
+}
+.boxer{
+    display: flex;
+    justify-content: space-evenly;
+/* border: 2px solid black; */
+padding: 10px;
 }
 #topsection {
 
