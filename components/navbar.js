@@ -16,7 +16,7 @@ function navbar() {
     return ` <div id="subbox">
     <div class="a">
     
-        <img src="https://utahworksitewellness.org/wp-content/uploads/2018/12/Overstock-Logo-2017_RGB-1024x233.jpg" alt="">
+       <a href="index.html"> <img src="https://utahworksitewellness.org/wp-content/uploads/2018/12/Overstock-Logo-2017_RGB-1024x233.jpg" alt=""></a>
     </div>
 </div>
 
