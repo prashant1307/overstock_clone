@@ -42,7 +42,7 @@ s        .container {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 40px 105px 60px;
     /* width: 100%; */
     justify-content: space-evenly;
