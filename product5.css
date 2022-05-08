@@ -112,6 +112,10 @@ img{
     font-weight: bold;
     border: none;
     font-family: "poppins";
+    transition: all 0.3s ease;
+}
+.bt:hover{
+    background-color: #fc6486;
 }
 .button{
     background-color: teal;
@@ -124,6 +128,10 @@ img{
     font-weight: bold;
     border: none;
     font-family: "poppins";
+    transition: all 0.3s ease;
+}
+.button:hover{
+background-color: #fc6486;
 }
 .boxer{
     display: flex;
