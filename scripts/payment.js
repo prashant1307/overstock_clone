@@ -42,3 +42,7 @@ function getDetails() {
 
     // window.location.href = "orderComplete.html";
 }
+
+function gotoLast() {
+    window.location.href = "last.html";
+}

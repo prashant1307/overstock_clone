@@ -112,6 +112,7 @@ let productData = [
  
      image : "https://ak1.ostkcdn.com/images/products/is/images/direct/f87d39b3135feb7500b05112f81f0ed604088b85/Set-of-2-Zero-Gravity-Chair-Patio-Folding-Lawn-Lounge-Chairs-Outdoor-Lounge-Gravity-Chair-Camp-Reclining-Lounge-Chair.jpg?imwidth=480&impolicy=medium",
      name : "Sale Start at INR 11175.49",
+     
      rating : 4.5,
      title : "Homall Patio Zero Gravity Chair Lawn Lounge Chair with Pillow Set of 2"
  

@@ -10,14 +10,24 @@ document.getElementById("bottom_nav").innerHTML = bottom_nav();
 
 
 
-// var cartProducts = JSON.parse(localStorage.getItem("cartData"));
+var cartProducts = JSON.parse(localStorage.getItem("cart"));
 // console.log(cartData);
-var cartProducts = [{image: "https://ak1.ostkcdn.com/images/products/is/images/direct/46a2619bf7e2515d8d79a4b5e658a5a3f78d02d1/LUCID-Comfort-Collection-10-inch-Luxury-Gel-Memory-Foam-Mattress.jpg?impolicy=mediumlow",
-                     name: "LUCID Comfort Collection 10-inch Luxury Gel Memory Foam Mattress",
-                     price: 99.99,
-                     category: "Chair"}];
+// var cartProducts = [{image: "https://ak1.ostkcdn.com/images/products/is/images/direct/46a2619bf7e2515d8d79a4b5e658a5a3f78d02d1/LUCID-Comfort-Collection-10-inch-Luxury-Gel-Memory-Foam-Mattress.jpg?impolicy=mediumlow",
+//                      name: "LUCID Comfort Collection 10-inch Luxury Gel Memory Foam Mattress",
+//                      price: 99.99,
+//                      category: "Chair"}];
 
-displayData(cartProducts);
+if (cartProducts.length === 0)
+{
+    let h1 = document.createElement("h1");
+    h1.innerText = "Your Cart is Empty";
+    document.getElementById("showProduct").append("h1");
+} else
+{
+    displayData(cartProducts);
+}
+
+
 document.querySelector(".counter").innerText = `(${cartProducts.length})`;
 
 // Calculating total price of items
@@ -27,8 +37,8 @@ var total = cartProducts.reduce(function(sum,elem){
 
 
 console.log(total);
-document.getElementById("finalTotal").innerText = `$${total}`;
-document.getElementById("total").innerText = `$${total}`;
+document.getElementById("finalTotal").innerText = `${total}`;
+document.getElementById("total").innerText = `₹${total}`;
 
 
 function displayData(cartProducts) {
@@ -55,7 +65,7 @@ function displayData(cartProducts) {
 
         let product_price = document.createElement("p");
         product_price.setAttribute("id","productPrice");
-        product_name.innerText = `$${elem.price}`; 
+        product_name.innerText = `₹${elem.price}`; 
         
         let selectTag = document.createElement("select");
 
