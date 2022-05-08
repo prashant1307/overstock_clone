@@ -86,7 +86,3 @@ function logIn(e) {
         alert("Wrong Credentials")
     }
 }
-
-
-
-
