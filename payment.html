@@ -22,11 +22,11 @@
             </div>
         </div>
 
-        <div id="account">
+        <!-- <div id="account">
             <div id="signIn">
                 <p>Already have an account?<u>Sign In</u></p>
             </div>
-        </div>
+        </div> -->
 
         <div id="mainPaymentDiv">
             <div id="shippingDetails">
@@ -124,10 +124,10 @@
             </div>
             
             <div id="productDetails">
-                <div id="total">
+                <div id="totalDiv">
                     <div>
-                        <p><span class="counter">(0)</span> Items:</p>
-                        <p class="total">$0.00</p>
+                        <p><span class="counter"></span> Items:</p>
+                        <p id="total"></p>
                     </div>
                     <div>
                         <p>Shipping:</p>
@@ -135,7 +135,7 @@
                     </div>
                     <div>
                         <p>Your Total: </p>
-                        <p id="finalTotal">$0.00</p>
+                        <p id="finalTotal"></p>
                     </div>
 
                     <button id="checkoutBtn"><span><i class="fa-solid fa-lock"></i></span> Submit Order</button>
@@ -181,3 +181,4 @@
     </div>
 </body>
 </html>
+<script src="./scripts/payment.js"></script>
