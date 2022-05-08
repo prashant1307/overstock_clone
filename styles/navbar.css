@@ -60,6 +60,7 @@
     position: relative;
     border-radius: 5px;
     font-family: "poppins";
+    text-align: center;
     
 }
 #navbar > #account{
@@ -86,14 +87,19 @@ i{
     font-size: 30px;
     color: black;
     text-align: auto;
+    transition: all 0.3s ease;
 }
 #icon{
     margin: auto;
     font-family: "poppins";
     font-size: smaller;
     /* background-color: white; */
+    
 }
-
+i:hover{
+    color: #fc6486;
+    
+}
 #account > #icon > a{
     text-decoration: none;
     color: black;
