@@ -234,22 +234,32 @@
 
     import footer from '../components/footer.js'
     document.getElementById('footer').innerHTML=footer()
-    function GoToProduct(){
+    document.querySelector("#GoToProduct").addEventListener("click",product);
+    function product(){
         window.location.href="product.html";
     }
-    function GoToProduct2(){
+
+    document.querySelector("#GoToProduct2").addEventListener("click",product2);
+    function product2(){
         window.location.href="product2.html";
     }
-    function GoToProduct3(){
+        
+    
+     document.querySelector("#GoToProduct3").addEventListener("click",product3);
+    function product3(){
         window.location.href="product3.html";
     }
-    function GoToProduct4(){
+    document.querySelector("#GoToProduct4").addEventListener("click",product4);
+    function product4(){
         window.location.href="product4.html";
     }
-    function GoToProduct5(){
+    document.querySelector("#GoToProduct5").addEventListener("click",product5);
+    function product5(){
         window.location.href="product5.html";
     }
-    function GoToProduct6(){
+    document.querySelector("#GoToProduct6").addEventListener("click",product6);
+    function product6(){
         window.location.href="product6.html";
     }
+    
 </script>
