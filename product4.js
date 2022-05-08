@@ -1,4 +1,7 @@
-
+import {topmost,navbar,bottom_nav} from '../components/navbar.js';
+document.getElementById('navbar').innerHTML=navbar()
+document.getElementById('topmost').innerHTML=topmost()
+document.getElementById('bottom_nav').innerHTML=bottom_nav()
 let productData = [
 
     {
@@ -192,7 +195,7 @@ let productData = [
  ]
  
  let cartData = JSON.parse(localStorage.getItem("cart")) || []
- // let listData = JSON.parse(localStorage.setItem("list")) || []
+ let listData = JSON.parse(localStorage.getItem("list")) || []
  
  displayData(productData)
  function displayData(productData){
@@ -249,13 +252,15 @@ let productData = [
      console.log(elem);
      cartData.push(elem)
      localStorage.setItem("cart",JSON.stringify(cartData))
+     alert("Added To Cart")
  }
  
- // function wishlist(elem){
- //     console.log(elem);
- //     listData.push(elem)
- //     localStorage.setItem("list",JSON.stringify(listData))
- // }
+ function wishlist(elem){
+     console.log(elem);
+     listData.push(elem)
+     localStorage.setItem("list",JSON.stringify(listData))
+     alert("Added To Wishlist")
+ }
  
  function handlerating() {
      document.querySelector("#container").innerHTML = ""
