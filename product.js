@@ -214,7 +214,15 @@ let productData = [
  ]
  
  let cartData = JSON.parse(localStorage.getItem("cart")) || []
+<<<<<<< Updated upstream
  // let listData = JSON.parse(localStorage.setItem("list")) || []
+=======
+ let listData = JSON.parse(localStorage.getItem("list")) || []
+=======
+ let wishlistData = JSON.parse(localStorage.getItem("wishlist")) || []
+ let listData = JSON.parse(localStorage.setItem("list")) || []
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
  
  displayData(productData)
  function displayData(productData){
