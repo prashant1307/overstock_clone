@@ -27,28 +27,28 @@
     
         <h2>Limited-Time Deals</h2>
     <div id="block_2">
-        <div>
+        <div onclick="GoToProduct()">
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_1.svg?imwidth=1920" alt="">
             <p>Select Garden & Patio</p>
         </div>
-        <div>
+        <div onclick="GoToProduct2()">
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_2.svg?imwidth=1920" alt="">
             <p>Select Living Room Furniture</p>
         </div>
-        <div>
+        <div onclick="GoToProduct3()">
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_3.svg?imwidth=1920" alt="">
             <p>Select Dining Room Furniture</p>
         </div>
-        <div>
+        <div onclick="GoToProduct4()">
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_4.svg?imwidth=1920" alt="">
             <p>Select Home Decor</p>
         </div>
-        <div>
+        <div onclick="GoToProduct5()">
           
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_5.svg?imwidth=1920" alt="">
             <p>Select Bedding & Bath</p>
         </div>
-        <div>
+        <div onclick="GoToProduct6()">
             <img src="https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_6.svg?imwidth=1920" alt="">
             <p>Select Lighting & Ceiling Fans</p>
         </div>
@@ -234,4 +234,22 @@
 
     import footer from '../components/footer.js'
     document.getElementById('footer').innerHTML=footer()
+    function GoToProduct(){
+        window.location.href="product.html";
+    }
+    function GoToProduct2(){
+        window.location.href="product2.html";
+    }
+    function GoToProduct3(){
+        window.location.href="product3.html";
+    }
+    function GoToProduct4(){
+        window.location.href="product4.html";
+    }
+    function GoToProduct5(){
+        window.location.href="product5.html";
+    }
+    function GoToProduct6(){
+        window.location.href="product6.html";
+    }
 </script>
